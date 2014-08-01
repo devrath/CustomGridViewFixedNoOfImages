@@ -2,7 +2,7 @@
 
 ###What this project do :: 
 
-    This Project shows how to create dynamic views in android with automated number of images per row
+    This Project shows how to create dynamic views in android with automated fixed number of images per row
     
 ========================
 
