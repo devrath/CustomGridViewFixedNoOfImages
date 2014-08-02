@@ -17,6 +17,34 @@
 ========================
 
 
+### ALGORITHM
+
+    Calculation for autofit gridview(Imagesize will be determined based on the screen size and orientation)
+    Fixing the no of column for portrait 2 and landscape 3
+    Note:Here the padding will be 5dpi between each column,also no of column for portrait is fixed 2 and landscape is 3
+	
+-----
+    Let us take 240*320-(ldpi)
+	No of columns for autofit gridview
+	screen width 320
+	No of column in portrait mode is 2
+	therefore total no of image can be displayed is 2
+
+-----
+	width calculation for autofit gridview
+	(screen_width-outer_padding-(image_padding*maxPortCol))/maxPortCol
+	320-10=310-(10*2)=(int)floor(290/2)=180
+	
+-----
+	Height calcualtion for autofit gridview ratio is 10:7 for the ratio if image width is 100 then height must be 70
+	imagewidth/ratio
+	10/7=1.4285
+	180/1.4285=(int)floor(126.315)=126
+
+
+
+
+
 
 ---
 
@@ -33,6 +61,11 @@
 * These customizations help in creating `categorized gridView`  
 
 ---
+
+
+
+
+
 
 ## App Specifications
 
