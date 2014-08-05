@@ -66,7 +66,7 @@
 ## Usage
 
 * Download the project from the `GitHub` or the `DropBox` links 
-* Demo already has the `Jar` but if you are making a new project make sure you download the `Jar` from teh Link and add it to the `libs` folder in your project
+* Demo already has the `Jar` but if you are making a new project make sure you download the `Jar` from the Link and add it to the `libs` folder in your project
 * And that is it !
 
 
